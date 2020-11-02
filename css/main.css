@@ -1,0 +1,22 @@
+body {
+  background-color: peachpuff;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.figCard {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  width: 380px;
+  height: 380px;
+
+  background-color: white;
+
+}
